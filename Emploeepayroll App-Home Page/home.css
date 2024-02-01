@@ -1,0 +1,91 @@
+header {
+    background-color: rgb(145, 177, 83);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+}
+
+.payroll-image {
+    margin-left: 14%;
+ }
+
+ .payroll-header {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background: #108c61;
+    padding: 2em 14% 1em;
+    min-height: calc(100vh - 80px);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-text {
+    font: normal normal bold 24px/25px Roboto;
+}
+
+.add-button {
+    background: #17480b;
+    font: normal normal normal 22px/29px Roboto;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+    cursor: pointer;
+    text-decoration: none;
+    /* letter-spacing: 0px; */
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 3px;
+    border-collapse: separate;
+    margin-top: 25px;
+}
+
+th {
+    background: #0358a8;
+    text-align: left;
+    padding: 5px 8px;
+    border-radius: 3px 3px 0px 0px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+tr:not(first-child) {
+    background: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
+
+td {
+    padding: 8px 8px;
+}
+
+td:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.dept-label {
+    background-color: #d4f46a;
+    text-align: center;
+    width: fit-content;
+    border-radius: 40%;
+    padding: 1px 7px;
+    display: inline-block;
+}
+
+.icon {
+   margin-left: 10px;
+}
